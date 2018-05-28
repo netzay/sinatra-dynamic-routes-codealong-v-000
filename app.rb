@@ -22,7 +22,7 @@ class App < Sinatra::Base
 
   get "/multiply/:num1/:num2" do
     @nums = params[[:num1][:num2]]
-    "#{@nums}
+    "#{@nums}"
   end
   # Code your final two routes here:
 
